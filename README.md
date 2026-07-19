@@ -1,1 +1,293 @@
-# Maya-boardgame
+# Maya-boardgame v1.0
+## Overview
+
+This board game was originally inspired by my experience learning Spanish. Although many people in Central and South America did not historically speak Spanish, learning the language helped me gradually understand more about their cultures.
+
+Combining this cultural interest with my passion for strategy board games, I created the V1.0 prototype of this game.
+
+During the design process, I referred to historical details from Mesoamerican civilizations and several strategy board games. However, many historical elements were simplified to make the game more playable and suitable for a board game format.
+
+---
+
+# Historical Background and Faction Design
+
+One of the most important characteristics of Mesoamerican civilizations, including the Maya and Aztecs, was the existence of many independent city-states.
+
+Therefore, describing the Maya as a single unified "empire" is not completely accurate. Unlike the Aztecs, who developed into an empire at their peak, many other Mesoamerican civilizations were actually networks of competing city-states that continuously fought for influence.
+
+Based on this idea, I selected a historical period when several major powers were competing. For simplification, the game focuses on two major factions:
+
+- Tikal
+- Kaan
+
+The game represents a period of competition between these two powers while simplifying the larger political landscape.
+
+---
+
+# Religion and Sacrifice System
+
+Initially, I planned to design three independent systems:
+
+- Military
+- Religion
+- Diplomacy
+
+However, during development, I combined religion and diplomacy into one system.
+
+The religious system represents several aspects:
+
+- Spreading political influence to other city-states
+- Maintaining internal stability
+- Supporting the legitimacy of rulers by showing divine favor
+
+## Sacrifice Mechanics
+
+Historically, Mesoamerican societies practiced different forms of sacrifice.
+
+### Royal Bloodletting
+
+One possible mechanic I considered was royal bloodletting, where rulers sacrificed their own blood to maintain legitimacy.
+
+The original idea was:
+
+- Sacrifice could temporarily increase internal stability or religious influence.
+- However, it would reduce the leader's ability because of physical damage.
+
+Eventually, I removed this mechanic.
+
+The main reason was complexity. Adding this system would require:
+
+- Leader cards
+- Different abilities for different leaders
+- Additional markers to track effects
+
+This would make visual recognition and gameplay significantly more complicated.
+
+Since this mechanic was not essential to the core gameplay, it was removed.
+
+---
+
+### Resource Sacrifice
+
+Another form of sacrifice involved resources such as:
+
+- Food
+- Materials
+- Temple construction
+
+This was simpler and was included as the basic sacrifice system.
+
+---
+
+### Human Sacrifice and Prisoners of War
+
+Another important historical element was human sacrifice.
+
+However, the sacrificed people were usually prisoners of war rather than members of their own society.
+
+Inspired by another historical board game, I designed a prisoner system.
+
+The difference is that:
+
+- That game mainly used ordinary soldiers as prisoners.
+- My game uses noble prisoners, representing commanders or leaders.
+
+Because of their higher status, noble prisoners have multiple possible uses:
+
+1. They can be sacrificed to increase religious influence and affect political tendencies.
+2. They can be exchanged back.
+
+Historically, prisoner redemption may not have been common in this context, and this point requires further verification.
+
+However, from a game design perspective, I wanted to create an opportunity cost. Players should have to choose between multiple valuable options rather than always choosing the same action.
+
+---
+
+# Diplomacy and Political Influence
+
+I considered creating a separate diplomacy system, but eventually decided not to.
+
+The reason is related to the game's time scale.
+
+The game represents a relatively short period of conflict, ranging from several months to several years. However, many historical diplomatic relationships between city-states depended on long-term processes.
+
+Historically, major diplomatic methods included:
+
+## Military Protection
+
+A powerful city-state could provide protection to another city-state.
+
+## Marriage Alliances
+
+Political marriages were another important method of creating alliances.
+
+## Warfare
+
+Direct conflict was also a method of changing political relationships, although this belongs more to the military system.
+
+## Common Enemies
+
+City-states could also cooperate because they shared a common threat.
+
+However, these systems were difficult to implement.
+
+Marriage alliances, for example, do not fit well with the game's time scale. Meanwhile, temporary alliances based on common enemies are difficult to represent because the game only contains two major factions.
+
+---
+
+# Map Design
+
+The original map was inspired by historical geography but was adjusted for gameplay balance.
+
+Although the overall geographical distribution remains close to the historical situation, some connections were modified.
+
+## Removed Capital Connection
+
+Historically, the capitals of Tikal and Kaan should have had some direct connection.
+
+However, I removed this road connection.
+
+The reason was that without any buffer area, the two factions would immediately enter direct conflict, making the game overly aggressive from the beginning.
+
+## Added Northern Connection
+
+Because the two factions were not geographically symmetrical, I added an additional route connecting:
+
+- The northern city-state
+- The central city-state
+
+Without this adjustment:
+
+- The northern area would have too few connections.
+- The central city-state would become too powerful because it connected in every direction.
+
+This adjustment improved map balance.
+
+---
+
+# City-State Resources
+
+The resource production of each city-state was not designed completely according to historical data.
+
+Historical records do not provide enough information for this type of game design, so I mainly focused on gameplay balance.
+
+Each city-state produces different resources.
+
+This creates different strategic choices.
+
+If all city-states produced identical resources, the game would become a simple comparison of:
+
+- Military production ability
+- Political influence output
+
+Different resource distributions allow more diverse strategies.
+
+---
+
+# Resource System
+
+The game uses four simplified resource categories:
+
+## Wealth
+
+Represents economic value and luxury goods.
+
+## Resources
+
+Represents general materials, including examples such as:
+
+- Salt
+- Gold
+- Other valuable materials
+
+## Food
+
+Represents agricultural production.
+
+## Labor
+
+Represents workforce capacity.
+
+These resources have different functions while also overlapping with each other.
+
+However, I did not fully reproduce historical resource production because doing so would make the system unnecessarily complicated.
+
+---
+
+# Religious Tradition System (Removed Feature)
+
+Because Mesoamerican religions were polytheistic, I also considered adding different religious traditions.
+
+Different gods represented different aspects of life, such as:
+
+- Agriculture
+- Warfare
+- Other social activities
+
+The original idea was a guardian god system.
+
+Players could gain:
+
+- Global buffs
+- Enemy debuffs
+
+through sufficient sacrifice.
+
+However, this system was removed.
+
+## Reasons
+
+### Complexity
+
+It would require:
+
+- Many different effects
+- Additional balancing
+- More markers and tracking systems
+
+### Historical Design Philosophy
+
+The game is designed with a realistic historical style rather than a fantasy style.
+
+Although gods were important in Mesoamerican culture, directly changing realistic production through sacrifice would not fit the design.
+
+For example:
+
+- Increasing military confidence through religious belief is reasonable.
+- Directly increasing food production through sacrifice is much harder to justify.
+
+Therefore, this system was removed.
+
+Since this is only Version 1.0, I preferred keeping the core mechanics simpler.
+
+---
+
+# Combat System
+
+The combat system was also simplified.
+
+One possible approach was allowing every unit to roll individual dice.
+
+However, because the project may later include visual recognition, individual dice rolls would create unnecessary complexity.
+
+Although individual dice could provide more precise probability control, they would make the system harder to process.
+
+I also considered a combat calculation method similar to *Root*, but that would require:
+
+- Custom dice
+- More complex calculations
+
+Therefore, I chose a simpler difference-based combat calculation system and added modifiers to introduce controlled randomness.
+
+---
+
+# Current Version
+
+This is the main design philosophy behind Version 1.0:
+
+- Historical inspiration
+- Simplified political systems
+- Balanced gameplay
+- Realistic but manageable mechanics
+- Compatibility with future digital recognition systems
+```
