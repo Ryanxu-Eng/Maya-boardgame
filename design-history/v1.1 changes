@@ -1,0 +1,185 @@
+# Version 1.1 Changes
+
+Version 1.1 introduces several changes based on the first playtest of Version 1.0.
+
+---
+
+## 1. Increased Starting Resources
+
+In Version 1.0, each player started with:
+
+- 2 Food
+- 2 Wealth
+- 1 Labor
+
+In Version 1.1, each player starts with:
+
+- 3 Food
+- 2 Wealth
+- 2 Labor
+
+This change is intended to speed up the early game and reduce the number of turns players need to spend simply accumulating resources before taking meaningful actions.
+
+---
+
+## 2. Adjusted City Resource Distribution
+
+The resource distribution of several cities has been changed.
+
+### Version 1.1 Resource Distribution
+
+| City | Resources |
+|---|---|
+| Tikal | F / F / W / L |
+| Calakmul | F / F / W / L |
+| Palenque | F / W / L |
+| Waka' | L / L / W |
+| Dos Pilas | W / L / F |
+| Naranjo | F / W / W |
+| Caracol | F / F / L |
+
+The total resource distribution is now:
+
+- 9 Food
+- 7 Wealth
+- 7 Labor
+
+Food was increased because it is required for several major systems, including military recruitment, army upkeep, and political influence.
+
+---
+
+## 3. Pillage City
+
+A new mechanic called **Pillage City** has been added.
+
+When a player successfully captures an ordinary city, the following sequence is used:
+
+1. Pillage the city.
+2. Apply Damage.
+
+During Pillage, the attacker chooses one currently undamaged Resource Slot and immediately gains one resource of that type.
+
+After the resource is collected, the city receives 1 Damage.
+
+The newly caused Damage may be assigned to the same Resource Slot that was just Pillaged.
+
+Therefore, the order must always be:
+
+**Pillage first → Damage second**
+
+Pillage only applies to ordinary cities.
+
+Capitals continue to use their existing special plunder rule and do not receive an additional Pillage effect.
+
+---
+
+## 4. Neutral Cities Cannot Capture Nobles
+
+When a player attacks a Neutral city and loses, their Noble cannot be captured by the Neutral city.
+
+The Noble retreats according to the normal retreat rules.
+
+This exception only applies to battles against Neutral cities.
+
+Nobles may still be captured normally in battles between the two players.
+
+---
+
+## 5. Reduced Cost for Level 2 and Level 3 Political Shifts
+
+In Version 1.0, moving between Level 2 and Level 3 required:
+
+- 1 Food
+- 1 Labor
+- 2 Wealth
+
+In Version 1.1, the cost is reduced to:
+
+- 1 Food
+- 1 Labor
+- 1 Wealth
+
+This applies in both directions.
+
+For example:
+
+- Own L2 → Own L3
+- Enemy L3 → Enemy L2
+
+The change is intended to make Level 3 cities more achievable and encourage players to establish stronger political strongholds instead of constantly fighting around Neutral, Level 1, and Level 2 positions.
+
+---
+
+## 6. Sacrifice Limit Changed
+
+In Version 1.0, a player could perform only one political action per turn.
+
+In Version 1.1, this restriction is removed.
+
+Instead:
+
+**Each individual city may be targeted by Sacrifice only once during the same player's turn.**
+
+A player may therefore perform Sacrifices in multiple different cities during the same turn.
+
+Ordinary Sacrifice and Grand Sacrifice may also both be performed during the same turn, as long as they target different cities.
+
+A single city may never receive more than one Sacrifice action during the same player's turn.
+
+---
+
+## 7. Noble Recruitment Restricted to Level 3 Cities
+
+In Version 1.0, Nobles could be recruited in:
+
+- Capitals
+- Friendly Level 2 cities
+- Friendly Level 3 cities
+
+In Version 1.1, Nobles may only be recruited in:
+
+- The player's own capital
+- An unoccupied friendly Level 3 city
+
+Warriors may still be recruited in:
+
+- The player's own capital
+- Unoccupied friendly Level 2 cities
+- Unoccupied friendly Level 3 cities
+
+This gives Level 3 cities a more distinctive strategic role.
+
+---
+
+## 8. Military Forces Now Provide Victory Points
+
+In Version 1.0, military units remaining at the end of the game did not directly provide Victory Points.
+
+In Version 1.1, surviving military forces are included in final scoring.
+
+### Warriors
+
+Every 2 Warriors are worth:
+
+**1 VP**
+
+Round down.
+
+Examples:
+
+- 1 Warrior = 0 VP
+- 2 Warriors = 1 VP
+- 5 Warriors = 2 VP
+- 10 Warriors = 5 VP
+
+### Nobles
+
+Each Noble still controlled by its original player and not held captive is worth:
+
+**1 VP**
+
+Remaining resources continue to be converted at the existing rate:
+
+**3 remaining resources = 1 VP**
+
+---
